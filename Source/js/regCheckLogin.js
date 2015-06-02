@@ -1,31 +1,23 @@
-jQuery(document).ready(function () {
-    jQuery("#login").bind("change", function () {
-
-        var $login = jQuery('#login').val();
-        jQuery.ajax({
-            type: 'POST',
-            url: "ajaxCheckLogin.php",
+$(document).ready(function () {
+    $("#login").bind("change", function () {
+        var $login = $('#login').val();
+        $.ajax({
+            type: "POST",
+            url: "../Source/js/ajaxCheckLogin.php",
+            dataType: "html",
+            success: function (html) {
+                $("#answer").html(html);
+                $("#loadImage").css({
+                    'display': 'none'
+                });
+            },
             data: ({'login': $login})
         });
     });
-    jQuery(document).ajaxStart(function () {
-        jQuery("#loadImage").css({
+    $(document).ajaxStart(function () {
+        $("#loadImage").css({
             'display': 'inline-block'
         });
     });
-    jQuery(document).ajaxSuccess(function () {
-        jQuery("#loadImage").css({
-            'display': 'none'
-        });
-        alert("scs");
-    });
-    jQuery(document).ajaxError()(function () {
-       
-    });
-});
 
-//            success: function (html) {
-//                alert(1);
-//                jQuery("#loadImage").css({'display': 'none'});
-//                jQuery("#answer").html(html);
-//            }
+});

@@ -159,8 +159,7 @@ if ($reg = $connect->checkRegistration("setings")) {
                             ?>
                             <form action="Registration.php" method="POST" enctype="multipart/form-data">
                                 <div style="display: inline-block"><label class="task" for="login">Логін (поле може містити тільки латинські букви і цифри 0-9, не більше 24 символів)</label><input type="text"  id="login" class="pole" name="login" value="<?php echo $_POST["login"]; ?>"> 
-                                    <div style="margin-left: 360px" id="answer"></div>
-                                </div>
+                                </div><div style="display: inline" id="answer"> </div>
                                 <img src="../Source/images/loading.gif" id="loadImage" style="vertical-align: top; margin-left: 10px; display: none;  padding-top: 0px; width: 19px; height: 19px;">
                                 <div><label class="task" for="pass1">Пароль (Пароль повинен містити 5 або більше символів)</label><input type="password"  id="pass1" class="pole" name="password"></div>
                                 <div><label class="task" for="pass2">Повторіть пароль (паролі повинні співпадати)</label><input type="password"  id="pass2" class="pole" name="password_re"></div>
