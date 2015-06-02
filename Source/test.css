@@ -1,0 +1,198 @@
+/* 
+    Created on : 21.12.2014, 21:33:29
+    Author     : freedom
+*/
+
+span.tab {
+    margin-left: 4em;
+}
+li.tab {
+    padding: 0;
+    margin-left: 4em;
+}
+ol.tab{
+    padding:0 0 0 1.5em;
+    margin: 0;
+}
+table.task {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+TD.task, TH.task {
+    padding: 2px;
+    text-align: center;
+    border: 1px solid black; 
+}
+td.task {
+    table-layout: fixed;
+    width: 100px;
+}
+label.task { 
+    display: inline-block; 
+    width: 350px;
+    vertical-align: top;
+}
+label.inputTask {
+    display: inline-block;
+    width: 120px;
+    vertical-align: top; 
+}
+label.inputTaskFouth { 
+    display: inline-block; 
+    width: 200px; 
+    vertical-align: top; 
+}
+label.delete { 
+    display: inline-block;
+    width: 150px; 
+    vertical-align: top; 
+}
+input.poleInputTask {
+    width: 100px; 
+    border: 1px solid black;
+    margin-left: 10px;
+}
+input.function { 
+    width: 300px; 
+    border: 1px solid black;
+    margin-left: 10px;
+}
+div.varning{
+    color: red;
+}
+input.pole { 
+    width: 248px; 
+    border: 1px solid black;
+    margin-left: 10px;
+}
+form div { 
+    margin-bottom: 20px;
+}
+form div.inTask { 
+    margin-bottom: 10px; 
+}
+select { 
+    width: 170px; 
+    border: 1px solid black; 
+}
+select.delete {
+    width: 400px; 
+    border: 1px solid black;
+}
+body {
+    overflow-y: scroll;
+    margin:11px;
+    padding:0;background:#FEFCFC;
+    text-align: center; 
+    font:normal 14px Arial,Helvetica,sans-serif;
+    color:#727171;
+}
+h1, h2, h3 {
+    margin:0;
+    padding:0;
+    font-family:Arial,Helvetica,sans-serif
+}
+#mid{
+    width: 1024px;
+    margin: 0 auto;
+    text-align: justify;
+}
+#header {
+    height:50px;
+    padding:10px;
+}
+#header h1 {
+    text-align: center;
+    letter-spacing:-2px;
+    font-size:36px
+}
+#header a {
+    padding-left:0;
+    background:none;
+    text-transform:lowercase;
+    text-decoration:none;
+    color:#FF7800
+}
+#links {
+    float:left;
+    width:210px
+}
+#posts {
+    margin-left:219px;
+    font:normal 13px Helvetica,Arial,sans-serif;
+}
+#posts .post {
+    margin-bottom: 40px;
+}
+#posts .story {
+    line-height:18px
+}
+#posts a {
+    color:#333
+}
+#posts a:hover {
+    text-decoration:none;color:#000
+}
+#posts .category {
+    padding-left:15px;background:url(images/img4.gif) no-repeat left center
+}
+#posts .comment {
+    padding-left:15px;
+    background:url(images/img5.gif) no-repeat left center
+}
+#submit1 {
+    margin-left: 0;
+}
+.default{
+
+}
+.fixed{
+    position: fixed; 
+    width: 210px;
+    top: 3px;
+}
+.obox {
+    margin-bottom:10px;
+    background:#FFFBF6;
+    border:5px solid #FFE3C0
+}
+.obox .heading {
+    margin-bottom:5px;
+    padding:5px 10px;
+    background:#FFE3C0;
+    text-transform:uppercase;
+    font-size:11px;color:#FF7800
+}
+.obox .content {
+    padding:10px
+}
+.obox ul {
+    margin:0;padding:0;list-style:none;line-height:18px
+}
+.obox li {
+
+}
+#searchMid{
+    text-align: center;
+}
+#search{
+}
+#search a{ 
+    width: 70px;
+    text-decoration: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#search label{
+    padding: 0px 3px 3px 5px;
+    text-align: justify;
+}
+.obox a {
+    padding-left:10px;
+    text-decoration:none;
+    color:#FF7800
+}
+.obox a:hover {
+    text-decoration:underline
+}
