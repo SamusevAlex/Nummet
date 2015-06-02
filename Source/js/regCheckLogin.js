@@ -20,7 +20,7 @@ jQuery(document).ready(function () {
         alert("scs");
     });
     jQuery(document).ajaxError()(function () {
-        
+        alert(10);
     });
 });
 
